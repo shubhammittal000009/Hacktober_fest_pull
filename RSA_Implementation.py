@@ -24,6 +24,8 @@ def egcd(a, b):
         g, y, x = egcd(b % a, a)
         return (g, x - (b // a) * y, y)
 
+h=1000    
+
 # Checks if a number is a prime
 def is_prime(num):
     if num == 2:
